@@ -1,6 +1,6 @@
 {
-  "name": "barebones-quickstart",
-  "description": "A quickstart template for a typescript project",
+  "name": "datastore.js",
+  "description": "A simple in-memory database for JavaScript apps",
   "version": "0.1.0",
   "main": "dist/index.js",
   "scripts": {
