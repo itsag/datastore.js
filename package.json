@@ -2,7 +2,7 @@
   "name": "datastore.js",
   "description": "A simple in-memory database for JavaScript apps",
   "version": "0.1.0",
-  "main": "dist/index.js",
+  "main": "dist/datastore.js",
   "scripts": {
     "build": "node_modules/.bin/tsc",
     "lint": "node_modules/.bin/eslint . --ext .ts",
