@@ -1,8 +1,8 @@
-# Datastore.js
+![datastore-js](https://user-images.githubusercontent.com/71135962/159658498-bfd1def8-cd91-4425-b7b9-cf84840e0d52.png)
+
+## Status
 
 ![Tests](https://github.com/itsag/datastore.js/actions/workflows/tests-build.yml/badge.svg) ![Issues](https://img.shields.io/github/issues/itsag/datastore.js.svg) ![PRs](https://img.shields.io/github/issues-pr/itsag/datastore.js.svg)
-
-A simple in-memory database built on objects for JavaScript apps.
 
 ## Introduction
 
