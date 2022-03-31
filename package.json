@@ -1,5 +1,5 @@
 {
-  "name": "@ajayguptadev/datastore.js",
+  "name": "@ajayguptadev/datastore",
   "description": "A simple in-memory database for JavaScript apps",
   "version": "0.1.0",
   "main": "dist/datastore.js",
