@@ -1,5 +1,5 @@
 {
-  "name": "datastore.js",
+  "name": "@ajayguptadev/datastore.js",
   "description": "A simple in-memory database for JavaScript apps",
   "version": "0.1.0",
   "main": "dist/datastore.js",
@@ -8,14 +8,16 @@
     "name": "Ajay Gupta",
     "url": "https://github.com/itsag"
   },
+  "homepage": "https://github.com/itsag/datastore.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/itsag/datastore.js.git"
+    "url": "git@github.com:itsag/datastore.js.git"
   },
   "scripts": {
     "build": "node_modules/.bin/tsc",
     "lint": "node_modules/.bin/eslint . --ext .ts",
-    "test": "node_modules/.bin/jest ."
+    "test": "node_modules/.bin/jest .",
+    "prepublishOnly": "node_modules/.bin/tsc"
   },
   "devDependencies": {
     "@types/jest": "^27.4.0",
@@ -25,5 +27,26 @@
     "jest": "^27.5.1",
     "ts-jest": "^27.1.3",
     "typescript": "^4.5.5"
+  },
+  "files": [
+    "dist",
+    "source",
+    ".gitignore",
+    ".gitattributes",
+    "tsconfig.json",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "datastore",
+    "database",
+    "in-memory",
+    "key-value",
+    "key-value-store",
+    "object-store"
+  ],
+  "publishConfig": {
+    "access": "public"
   }
 }
