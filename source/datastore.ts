@@ -11,7 +11,7 @@ export const createDataStore = () => {
 
   /**
    * @method getStore
-   * @description Returns everything in the store.
+   * @description Return everything in the store.
    */
   const getStore = (): IStore => {
     return store;
@@ -19,7 +19,7 @@ export const createDataStore = () => {
 
   /**
    * @method clearStore
-   * @description Clears the store.
+   * @description Clear the store.
    */
   const clearStore = (): void => {
     store = {};
@@ -27,7 +27,7 @@ export const createDataStore = () => {
 
   /**
    * @method getItem
-   * @description Gets an item from the store.
+   * @description Get an item from the store.
    */
   const getItem = (key: string): unknown => {
     return store[key];
@@ -35,7 +35,7 @@ export const createDataStore = () => {
 
   /**
    * @method setItem
-   * @description Sets an item in the store.
+   * @description Set an item in the store.
    */
   const setItem = (key: string, value: unknown): void => {
     store[key] = value;
