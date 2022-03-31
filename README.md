@@ -8,11 +8,17 @@
 
 Datastore.js is built on top of plain JavaScript objects as they can store any type of data in key value pairs. They can have nested objects and arrays as a value. The logic is fairly simple: every datastore instance initializes a new object and all the CRUD operations are performed on it.
 
+## Installation
+
+```sh
+yarn add @ajayguptadev/datastore
+```
+
 ## Documentation
 
 ### createDataStore
 
-Creates a new datastore.
+Create a new datastore.
 
 ```js
 const notesDataStore = createDataStore();
@@ -20,7 +26,7 @@ const notesDataStore = createDataStore();
 
 ### getStore
 
-Returns everything in the store.
+Return everything in the store.
 
 ```js
 const results = notesDataStore.getStore();
@@ -28,7 +34,7 @@ const results = notesDataStore.getStore();
 
 ### clearStore
 
-Clears the store.
+Clear the store.
 
 ```js
 notesDataStore.clearStore();
@@ -36,7 +42,7 @@ notesDataStore.clearStore();
 
 ### getItem(key: string)
 
-Gets an item from the store.
+Get an item from the store.
 
 ```js
 const result = notesDataStore.getItem("key1");
@@ -44,7 +50,7 @@ const result = notesDataStore.getItem("key1");
 
 ### setItem(key: string, value: any)
 
-Sets an item in the store.
+Set an item in the store.
 
 ```js
 notesDataStore.setItem("key1", "value1");
